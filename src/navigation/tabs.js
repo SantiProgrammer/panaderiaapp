@@ -26,7 +26,7 @@ const Tabs = () => {
                 options={{
                     title: 'Shop',
                     tabBarIcon: ({ focused }) => (
-                        <Ionicons
+                        <Ionicons 
                             name={focused ? 'home' : "home-outline"}
                             size={22}
                             color={colors.primary}
@@ -40,7 +40,7 @@ const Tabs = () => {
                 options={{
                     title: 'Orders',
                     tabBarIcon: ({ focused }) => (
-                        <Ionicons
+                        <Ionicons 
                             name={focused ? 'file-tray-full' : "file-tray-full-outline"}
                             size={22}
                             color={colors.primary}
@@ -54,7 +54,7 @@ const Tabs = () => {
                 options={{
                     title: 'Cart',
                     tabBarIcon: ({ focused }) => (
-                        <Ionicons
+                        <Ionicons 
                             name={focused ? 'cart' : 'cart-outline'}
                             size={22}
                             color={colors.primary}

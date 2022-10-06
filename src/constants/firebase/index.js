@@ -1,0 +1,1 @@
+export const URL_API = 'https://newbreadappshop-258d1-default-rtdb.firebaseio.com/';
